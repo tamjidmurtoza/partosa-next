@@ -3,8 +3,8 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import Spacing from "../ui/spacing/Spacing";
 import ContactFormStyle2 from "../ui/form/ContactFormStyle2";
 import FooterStyle2 from "../ui/footer/FooterStyle2";
-import blogDetailsImg from '../../../public/images/blog_details.jpeg'
 import Image from "next/image";
+import blogDetailsImg from '../../../public/images/blog_details.jpeg';
 
 
 export default function BlogDetails() {
@@ -23,7 +23,7 @@ export default function BlogDetails() {
           </div>
         </div>
         <div className="cs_height_95 cs_height_lg_50" />
-        <img src={blogDetailsImg} alt="" placeholder="blur" />
+        <Image src={blogDetailsImg} alt="" placeholder="blur" />
         <div className="cs_height_95 cs_height_lg_50" />
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
