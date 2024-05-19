@@ -57,7 +57,7 @@ export default function Hero({titleUp, title, subTitle, downloadFile, movingText
           data-wow-duration="1s"
           data-wow-delay="0.3s"
         >
-          <Image
+          <img
             src={imgUrl}
             alt="Jake"
             className="cs_hover_layer_1"

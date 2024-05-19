@@ -23,7 +23,7 @@ export default function BlogDetails() {
           </div>
         </div>
         <div className="cs_height_95 cs_height_lg_50" />
-        <Image src={blogDetailsImg} alt="" placeholder="blur" />
+        <img src={blogDetailsImg} alt="" placeholder="blur" />
         <div className="cs_height_95 cs_height_lg_50" />
         <div className="row">
           <div className="col-lg-8 offset-lg-2">

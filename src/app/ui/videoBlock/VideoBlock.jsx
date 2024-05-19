@@ -26,7 +26,7 @@ export default function VideoBlock({videoSrc}) {
       >
         <span className="cs_video_block cs_style_1 d-block cs_video_open position-relative"
         >
-          <Image src={imgUrl} alt="" placeholder="blur" />
+          <img src={imgUrl} alt="" placeholder="blur" />
           <span className="cs_play_btn" onClick={handelClick}>
             <svg
               width={50}

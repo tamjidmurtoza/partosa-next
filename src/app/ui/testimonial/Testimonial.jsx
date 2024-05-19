@@ -5,7 +5,7 @@ export default function Testimonial({imgUrl, title, subTitle, text, rating}) {
   return (
     <div className="cs_testimonial cs_style_1 position-relative cs_radius_15">
       <div className="cs_testimonial_avatar cs_mb_26">
-        <Image src={imgUrl} alt="Avatar" height={165} width={165}/>
+        <img src={imgUrl} alt="Avatar" height={165} width={165}/>
         <div className="cs_testimonial_avatar_right">
           <h3 className="cs_fs_28 mb-0">{title}</h3>
           <p className="mb-0">{subTitle}</p>
