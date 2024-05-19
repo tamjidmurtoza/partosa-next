@@ -1,9 +1,9 @@
 import { useState } from "react";
 import VideoModal from "./VideoModal";
 import Image from "next/image";
-import imgUrl from '../../../../public/images/about.jpeg';
 
-export default function VideoBlock({videoSrc}) {
+
+export default function VideoBlock({videoSrc, imgUrl}) {
 
   const [iframeSrc, setIframeSrc] = useState('about:blank');
   const [toggle, setToggle] = useState(false);
@@ -26,7 +26,7 @@ export default function VideoBlock({videoSrc}) {
       >
         <span className="cs_video_block cs_style_1 d-block cs_video_open position-relative"
         >
-          <img src={imgUrl} alt="" placeholder="blur" />
+          <Image src={imgUrl} alt="" placeholder="blur" />
           <span className="cs_play_btn" onClick={handelClick}>
             <svg
               width={50}

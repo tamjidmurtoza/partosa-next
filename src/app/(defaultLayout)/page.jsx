@@ -13,6 +13,8 @@ import Spacing from "../ui/spacing/Spacing";
 import Testimonial from "../ui/testimonial/Testimonial";
 import Timeline from "../ui/timeline/Timeline";
 import VideoBlock from "../ui/videoBlock/VideoBlock";
+import heroImgUrl from '../../../public/images/hero_img.png';
+import AboutImgUrl from '../../../public/images/about.jpeg';
 
 
 const portfolioData = [
@@ -204,6 +206,7 @@ export default function HomePage() {
           subTitle='My passion for design, code, and web interaction fuels my journey in the web design realm.'
           downloadFile='Resume.pdf'
           movingText={movingTextData}
+          imgUrl={heroImgUrl}
         />
       </Section>
 
@@ -238,6 +241,7 @@ export default function HomePage() {
             <div className="col-lg-5">
               <VideoBlock 
                 videoSrc='https://www.youtube.com/embed/UJEUwEJ6gH4'
+                imgUrl={AboutImgUrl}
               />
             </div>
             <div className="col-lg-7">

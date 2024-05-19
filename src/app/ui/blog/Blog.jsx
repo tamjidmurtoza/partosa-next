@@ -8,7 +8,7 @@ export default function Blog({imgUrl, date, title, linkUrl}) {
         href={linkUrl}
         className="cs_post_thumb cs_radius_15 cs_mb_30"
       >
-        <img src={imgUrl} alt="Thumb" height={501} width={624} />
+        <img src={imgUrl} alt="Thumb" />
       </Link>
       <div className="cs_post_info">
         <p className="cs_posted_by cs_accent_color cs_mb_15">{date}</p>

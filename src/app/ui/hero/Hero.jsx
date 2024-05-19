@@ -2,9 +2,8 @@ import parser from "html-react-parser";
 import MovingText from "../movingText/MovingText";
 import SocialBtns from "../social/SocialBtns";
 import Image from "next/image";
-import imgUrl from '../../../../public/images/hero_img.png';
 
-export default function Hero({titleUp, title, subTitle, downloadFile, movingText}) {
+export default function Hero({titleUp, title, subTitle, imgUrl, downloadFile, movingText}) {
   return (
     <>
       <div className="container position-relative">
@@ -57,7 +56,7 @@ export default function Hero({titleUp, title, subTitle, downloadFile, movingText
           data-wow-duration="1s"
           data-wow-delay="0.3s"
         >
-          <img
+          <Image
             src={imgUrl}
             alt="Jake"
             className="cs_hover_layer_1"
