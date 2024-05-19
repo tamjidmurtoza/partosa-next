@@ -1,9 +1,8 @@
-import Image from "next/image";
 
 export default function Portfolio({title, imgUrl}) {
   return (
     <div className="cs_portfolio cs_style_1 cs_lightbox_item cs_radius_15 overflow-hidden d-block position-relative" >
-      <Image src={imgUrl} alt="" height={900} width={900}/>
+      <img src={imgUrl} alt=""/>
       <span className="cs_portfolio_btn cs_fs_28 cs_semibold">
         <span>{title}</span>
         <svg
