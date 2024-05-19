@@ -1,0 +1,45 @@
+// Hero
+.cs_hero.cs_style_1 .cs_hero_img_shape {
+  @media (max-width:400px) {
+    top: -3%;
+  }
+}
+
+// Portfolio
+.cs_portfolio.cs_style_1:hover{
+  cursor: pointer;
+}
+.cs_lightgallery .cs_grid_item:first-child {
+  padding-bottom: 70px;
+}
+
+// Testimonial
+.star-ratings{
+  .star-container{
+    padding: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    &:not(:last-child){
+      margin-right: 5px;
+    }
+  }
+  svg{
+    height: 18px !important;
+    width: 18px !important;
+  }
+}
+
+// Footer
+.cs_profile_link:hover{
+  color: #25ac42;
+}
+
+// error
+.cs_error{
+  height: 100vh;
+}
+
+// play btn
+.cs_play_btn:hover{
+  cursor: pointer;
+}

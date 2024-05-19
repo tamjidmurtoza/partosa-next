@@ -1,0 +1,27 @@
+{
+  "name": "partosa-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@iconify/react": "^4.1.1",
+    "bootstrap": "^5.3.3",
+    "html-react-parser": "^5.1.10",
+    "lightgallery": "^2.7.2",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-star-ratings": "^2.3.0",
+    "sass": "^1.77.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
