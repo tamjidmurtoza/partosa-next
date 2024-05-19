@@ -2,8 +2,9 @@ import parser from "html-react-parser";
 import MovingText from "../movingText/MovingText";
 import SocialBtns from "../social/SocialBtns";
 import Image from "next/image";
+import imgUrl from '../../../../public/images/hero_img.png';
 
-export default function Hero({titleUp, title, subTitle, downloadFile, imgUrl, movingText}) {
+export default function Hero({titleUp, title, subTitle, downloadFile, movingText}) {
   return (
     <>
       <div className="container position-relative">

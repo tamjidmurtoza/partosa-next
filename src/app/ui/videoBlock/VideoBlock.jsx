@@ -1,8 +1,9 @@
 import { useState } from "react";
 import VideoModal from "./VideoModal";
 import Image from "next/image";
+import imgUrl from '../../../../public/images/about.jpeg';
 
-export default function VideoBlock({videoSrc, imgUrl}) {
+export default function VideoBlock({videoSrc}) {
 
   const [iframeSrc, setIframeSrc] = useState('about:blank');
   const [toggle, setToggle] = useState(false);
